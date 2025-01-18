@@ -1,0 +1,14 @@
+body {
+  background-image:  linear-gradient(rgba(57, 57, 57, 0.3), rgba(54, 54, 54, 0.3)),url('C:\\Users\\Pallavi\\Desktop\\wedding_new\\src\\assets\\bg3.png');
+  background-size: cover;
+}
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

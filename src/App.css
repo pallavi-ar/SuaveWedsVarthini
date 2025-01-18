@@ -1,0 +1,333 @@
+.ant-menu-light {
+  background: none;
+  color: #f8be7e;
+  width: 60%;
+  margin-left: 28.75%;
+  gap: 1.5rem;
+}
+
+.ant-menu-light:hover {
+  background: none;
+}
+
+.ant-menu-submenu-title {
+  color: #f8be7e !important;  
+  font-size: 0.75rem;
+}
+
+.ant-menu-title-content {
+  font-size: 1rem;
+}
+
+.ant-menu-title-content:hover {
+  border-bottom: 2px solid #f8be7e !important;
+}
+
+.ant-menu-item {
+  color: #f8be7e !important;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item::after {
+  border-bottom: none !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .ant-menu-light {
+      margin-left: 24%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .ant-menu-light {
+      gap: 0rem;
+      margin-left: 30%;
+  }
+
+  .ant-menu-title-content {
+      font-size: 1rem;
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  .ant-menu-light {
+      width: 100%;
+      margin-left: 40%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.home {
+    text-align: center;
+}
+
+.sub-heading {
+    color: #ffd093;
+    margin-top: -2%;
+    font-size: 1.5rem;
+}
+
+.main-heading {
+  color: #f8be7e;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  margin-top: 8.5%;
+}
+
+@media screen and (max-width: 1025px) {
+  .main-heading {
+    font-size: 3.5rem;
+  }
+ }
+
+ @media screen and (max-width: 769px) { 
+  .main-heading {
+    margin-left: 5%;
+  }
+ } 
+
+ @media screen and (max-width: 600px) {
+  .main-heading {
+    width: 100%;
+    margin-left: 25%;
+  }
+} 
+
+
+.countdown {
+  width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+  position: relative;
+gap: 35px;
+  margin-top: 5.5%;
+}
+
+.countdown .box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 150px;
+max-width: 200px;
+}
+
+.countdown .value {
+font-size: 36px;
+font-weight: 600;
+background-color: #ffd093;
+color: rgb(151, 0, 0);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+width: 150px;
+height: 100px;
+position: relative;
+box-shadow: -2px 0px 5px 1px #4e4e4ead;
+}
+
+.countdown .value::before {
+content: "";
+position: absolute;
+width: 100%;
+height: 1px;
+z-index: 2;
+/* background-color: #313131b0; */
+/* box-shadow: 0px 0px 5px 0px #2e2f2ed6; */
+}
+
+.countdown .label {
+font-size: 18px;
+font-weight: 100;
+letter-spacing: 4px;
+margin-top: 10px;
+margin-left: 6px;
+  color: #f8be7e;
+}
+
+@media screen and (max-width: 769px) {
+.countdown .box {
+  height: 120px;
+  max-width: 150px;
+}
+
+.countdown {
+  gap: 20px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .countdown {
+  gap: 10px;
+  margin-left: 20%;
+}
+
+.countdown .box {
+  height: 100px;
+  max-width: 150px;
+}
+
+.countdown .value {
+  width: 120px;
+}
+} 
+
+
+.our-story {
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.our-story-heading {
+  font-size: 3rem;
+  color: #ffd093;
+  font-weight: bolder;
+  font-family: "Tangerine", cursive;
+  margin: 0;
+}
+
+.our-story-contents {
+  display: flex;
+  width: 100%;
+  opacity: 0; 
+  transition: opacity 0.6s ease-in;
+  text-align: justify;
+}
+
+
+.our-story-contents.visible {
+  opacity: 1; 
+}
+
+.our-story-left {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.our-story-right {
+  width: 50%;
+  justify-content: right;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.our-story-content {
+  font-size: 1.3rem;
+  color: #f8be7e;
+}
+
+.our-story-img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #3b3b3b;
+}
+
+@media screen and (max-width: 769px) { 
+  .our-story-content {
+    font-size: 1rem
+  }
+
+  .our-story-img {
+      margin-top: 12%;
+  }
+ } 
+
+ @media screen and (max-width: 600px) {
+  .our-story-left {
+      width: 80%;
+  }
+
+  .our-story-right {
+      width: 0%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.functions {
+    margin-top: 5%;
+    padding: 2%;
+    font-family: 'Tangerine', cursive;
+}
+
+.functions-content {
+    margin: 2%;
+    display: flex;
+    gap: 4rem;
+}
+
+.location {
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.location-content {
+  margin: 2%;
+  color: #f8be7e;
+  font-size: 1.3rem;
+  /* display: flex; */
+  align-items: center;
+}
+
+.loc-content-in {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loc-content-in > a {
+  color: #ffd093;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.loc-content-in > a:hover {
+  text-decoration: underline;
+}
+
+.loc-content-in2-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loc-content-in2 {
+  color: #ffd093;
+  text-decoration: none;
+  font-style: italic;
+  display: flex;
+}
+
+.loc-content-in2:hover {
+  text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.rsvp {
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.rsvp-content {
+    margin: 2%;
+    color: #f8be7e;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.rsvp-link {
+    color: #ffd093;
+    font-style: italic;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.rsvp-link:hover {
+    text-decoration: underline;
+}
