@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 600px) {
   .ant-menu-light {
-      width: 100%;
+      width: 60%;
       margin-left: 40%;
   }
 }
@@ -91,8 +91,9 @@
 
  @media screen and (max-width: 600px) {
   .main-heading {
-    width: 100%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 12%;
+    font-size: 2.75rem;
   }
 } 
 
@@ -163,17 +164,23 @@ margin-left: 6px;
 
 @media screen and (max-width: 600px) {
   .countdown {
-  gap: 10px;
-  margin-left: 20%;
+  gap: 20px;
+  /* margin-left: 20%; */
 }
 
 .countdown .box {
   height: 100px;
   max-width: 150px;
+  /* margin-left: 2%; */
 }
 
 .countdown .value {
-  width: 120px;
+  width: 60px;
+  font-size: 24px;
+}
+
+.countdown .label {
+    font-size: 12px;
 }
 } 
 
@@ -234,16 +241,21 @@ margin-left: 6px;
 
   .our-story-img {
       margin-top: 12%;
+      /* display: none; */
   }
  } 
 
  @media screen and (max-width: 600px) {
   .our-story-left {
-      width: 80%;
+      width: 100%;
   }
 
   .our-story-right {
       width: 0%;
+  }
+
+  .our-story-img {
+    display: none;
   }
 }
 

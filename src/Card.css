@@ -83,3 +83,10 @@
 .close-button:hover {
     color: red; 
 }
+
+@media screen and (max-width: 600px) {
+    .card {
+        height: 150px;
+        width: 300px;
+    }
+}
