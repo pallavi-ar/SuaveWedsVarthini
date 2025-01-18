@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SuaveWedsVarthini/static/css/main.7d0f2060.css",
+    "main.js": "/SuaveWedsVarthini/static/js/main.c2efb607.js",
+    "static/js/488.851502f6.chunk.js": "/SuaveWedsVarthini/static/js/488.851502f6.chunk.js",
+    "static/media/bg3.png": "/SuaveWedsVarthini/static/media/bg3.8aff655565db8f1dfa4a.png",
+    "static/media/wedding.png": "/SuaveWedsVarthini/static/media/wedding.c5384c808fa323db9ad9.png",
+    "static/media/weddingCover.png": "/SuaveWedsVarthini/static/media/weddingCover.1b08b9829600c58eea2a.png",
+    "static/media/ring.png": "/SuaveWedsVarthini/static/media/ring.7368388aaf6209b0082b.png",
+    "static/media/engagement.png": "/SuaveWedsVarthini/static/media/engagement.f356d5f523ede6d2cbea.png",
+    "static/media/p1.jpg": "/SuaveWedsVarthini/static/media/p1.58a22f3429a0ff912450.jpg",
+    "index.html": "/SuaveWedsVarthini/index.html",
+    "main.7d0f2060.css.map": "/SuaveWedsVarthini/static/css/main.7d0f2060.css.map",
+    "main.c2efb607.js.map": "/SuaveWedsVarthini/static/js/main.c2efb607.js.map",
+    "488.851502f6.chunk.js.map": "/SuaveWedsVarthini/static/js/488.851502f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d0f2060.css",
+    "static/js/main.c2efb607.js"
+  ]
+}
