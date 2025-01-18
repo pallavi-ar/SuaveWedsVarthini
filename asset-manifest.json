@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SuaveWedsVarthini/static/css/main.7d0f2060.css",
+    "main.css": "/SuaveWedsVarthini/static/css/main.9002423b.css",
     "main.js": "/SuaveWedsVarthini/static/js/main.c2efb607.js",
     "static/js/488.851502f6.chunk.js": "/SuaveWedsVarthini/static/js/488.851502f6.chunk.js",
     "static/media/bg3.png": "/SuaveWedsVarthini/static/media/bg3.8aff655565db8f1dfa4a.png",
@@ -10,12 +10,12 @@
     "static/media/engagement.png": "/SuaveWedsVarthini/static/media/engagement.f356d5f523ede6d2cbea.png",
     "static/media/p1.jpg": "/SuaveWedsVarthini/static/media/p1.58a22f3429a0ff912450.jpg",
     "index.html": "/SuaveWedsVarthini/index.html",
-    "main.7d0f2060.css.map": "/SuaveWedsVarthini/static/css/main.7d0f2060.css.map",
+    "main.9002423b.css.map": "/SuaveWedsVarthini/static/css/main.9002423b.css.map",
     "main.c2efb607.js.map": "/SuaveWedsVarthini/static/js/main.c2efb607.js.map",
     "488.851502f6.chunk.js.map": "/SuaveWedsVarthini/static/js/488.851502f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d0f2060.css",
+    "static/css/main.9002423b.css",
     "static/js/main.c2efb607.js"
   ]
 }
